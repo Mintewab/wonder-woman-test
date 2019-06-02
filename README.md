@@ -30,4 +30,5 @@ We built an app using the  Microsft Cognitive Service Computer Vision API API an
 
 Improvements: 1) Larger selection of pictures in game. 2) Improve formatting (give specific examples)
 
-## License
+
+## You can find the website [here](https://mintewab.github.io/Wonder-woman/)
