@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Analyze Sample</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/landmark.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <!-- for p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+
+    <script src="./Assets/javascript/config.js"></script>
+    <script src="./Assets/javascript/landmark.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="analyzeImage.html">Analize Image</a></li>
+                    <li><a href="game.html">Play Game</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="mainDiv">
+        <div class="mainDivChild" id="gameDescription">
+            Do you know this land mark?
+            <h1 id="displayTimeLeft"></h1>
+            <button id="play">PLAY</button>
+        </div>
+        <div class="mainDivChild" id="landmarkImg">
+            <div class="landmarkImgChild" id="img">
+                <img id="currentImg" src="">
+            </div>
+            <div class="landmarkImgChild" id="answer"></div>
+        </div>
+        <div class="mainDivChild" id="landmarkAnswer">
+
+        </div>
+    </div>
+</body>
+
+</html>

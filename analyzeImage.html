@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Identifer</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <script src="./Assets/javascript/config.js"></script>
+    <script src="./Assets/javascript/game.js"></script>
+</head>
+
+<body style="background-image: url('./Assets/images/ai5.jpg')">
+    <!-- navigation bar -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Analyze Image</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="analyzeImage.html">Analyze Image</a></li>
+                    <li><a href="game.html">Play Game</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="jumbotron" style="background-color: rgba(105, 126, 124, 0.74); color: white ">
+        <h1>Analyze image:</h1>
+        <h3>
+            Enter the URL to an image, then click the <strong>Analyze image</strong> button.
+        </h3>
+        <h3> Imgage to analyze:</h3>
+        <input type="text" name="inputImage" id="inputImage"
+            value="https://upload.wikimedia.org/wikipedia/commons/3/3c/Shaki_waterfall.jpg" />
+
+        <button id="analyzeImg" class="btn btn-primary">Analyze image</button>
+
+        <br><br>
+        <div id="wrapper">
+            <div id="imageDiv">
+                <img id="sourceImage" width="500" height="400"/>
+                <div>
+                    <h2 id="description"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

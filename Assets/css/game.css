@@ -1,0 +1,89 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-sarif;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/ai1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#questId {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    display: none;
+}
+.questId-child{
+    background-color: wheat;
+    border: 1px solid black;
+}
+#imageRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.imageRow-child{
+    border: 1px solid black;
+}
+#scoreDiv{
+    display: grid;
+    grid-template-rows: 6fr 1fr;
+    border: 1px solid black;
+}
+.scoreChoice{
+    border: 1px solid black; 
+}
+.questId-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.prevNext{
+    border: 1px solid black;
+}
+
+#currentImage{
+    height: 568px;
+    width: 788px;
+    padding: 20px;
+    border-radius: 31px;
+}
+
+
+#gameDescription {
+    display: grid;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+#startGame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    border-radius: 20px;
+    grid-column-gap: 10px;
+}
+
+.startGame-child {
+    padding: 10px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.startGame-child {
+    background-color: #236d3580;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.startGame-child:hover {
+    background-color: #236d35da;
+    transform: scale(1.25);
+    font-size: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}

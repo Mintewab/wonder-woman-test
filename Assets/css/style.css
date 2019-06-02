@@ -1,0 +1,97 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-sarif;
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/Z52FOz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: rgba(0, 6, 7, 0.76);
+    color: white;
+    padding-top: 20px;
+    min-height: 40px;
+    /* border-bottom: aqua 3px solid; */
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px
+}
+
+.jumbotron {
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    background-color: black; 
+}
+
+#mainDiv {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-row-gap: 10px;
+    margin: 50px;
+}
+
+#gameDescription {
+    display: grid;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+#startGame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    border-radius: 20px;
+    grid-column-gap: 10px;
+}
+
+.startGame-child {
+    /* border: 1px solid black; */
+    padding: 10px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#startGameBtn {
+    background-color: #236d3580;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+#startGameBtn:hover {
+    background-color: #236d35da;
+    transform: scale(1.25);
+    font-size: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
